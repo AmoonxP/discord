@@ -19,7 +19,6 @@ client.on('message', msg => {
 
 
 
-
 client.on("message", function(message) {
    if(message.content.startsWith(prefix + "rps")) {
     let messageArgs = message.content.split(" ").slice(1).join(" ");
@@ -1325,6 +1324,5 @@ antispam(client, {
   maxDuplicatesBan: 10, // عدد الرسايل الي يقدر المستخدم يرسلها قبل الميوت
   time: 10, // عدد الوقت الي يجلس لين تسحب رتبة الميوت من الشخص الحسبة برمجية وليست كتابية
 });
-
 
 client.login(process.env.BOT_TOKEN);
