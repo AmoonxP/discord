@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const Canvas = require("canvas-prebuilt");
 const jimp = require("jimp");
+const fs = require('fs');
 const fs = require('file-system');
 const moment = require('moment');
 const prefix = "-";
